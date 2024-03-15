@@ -408,7 +408,7 @@ var levels = [
       'bn': '<p>ফ্রগগুলিকে আবার পুকুরের পার করতে হবে, এবার কিছু পদ্ম-পাতার চারপাশে অনেক জায়গা আছে। <code>justify-content</code> এবং <code>align-items</code> এর সমন্বয় ব্যবহার করুন।</p>',
     },
     board: 'gyr',
-    style: {'justify-content': 'space-around', 'align-items': 'flex-end'},
+    style: {'justify-content': 'space-around', 'align-items': 'flex-start'},
     before: "#pond {\n  display: flex;\n",
     after: "}"
   },
