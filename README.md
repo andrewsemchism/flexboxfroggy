@@ -70,7 +70,7 @@ My gratitude to these contributors for localizing Flexbox Froggy. This is what o
 
 Don't see your language on the list? Contribute a translation! Fork the [repo](https://github.com/thomaspark/flexboxfroggy/), add your translations, and submit a pull request.
 
-## Testing with Cypress
+## Testing
 
 Run Cypress tests locally:
 `npx cypress run`
