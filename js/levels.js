@@ -349,7 +349,7 @@ var levels = [
       'bn': '<p><code>justify-content</code> এবং <code>align-items</code> এর সমন্বয় ব্যবহার করে পুকুরের মাঝে ফ্রগগুলিকে নেভিগেট করুন।</p>',
     },
     board: 'g',
-    style: {'justify-content': 'center'},
+    style: {'justify-content': 'center', 'align-items': 'center'},
     before: "#pond {\n  display: flex;\n",
     after: "}"
   },
