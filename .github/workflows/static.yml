@@ -27,8 +27,6 @@ jobs:
     needs: cypress-run
     #if: needs.cypress-run.outputs.tests-status == 'success'
     steps:
-      - name: Debug Cypress Output
-        run: echo "Cypress Output: ${{ needs.cypress-run.outputs.tests-status }}"
       - name: Checkout
         uses: actions/checkout@v4
       - name: Install Dependencies
