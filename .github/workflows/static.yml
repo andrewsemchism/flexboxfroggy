@@ -25,7 +25,7 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     needs: cypress-run
-    #if: needs.cypress-run.outputs.tests-status == 'success'
+    if: ${{ success() }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
