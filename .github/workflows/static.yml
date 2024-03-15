@@ -24,9 +24,11 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
-    #needs: cypress-run
-    #if: github.event_name == 'push' && needs.cypress-run.outputs.tests-status == 'success'
+    needs: cypress-run
+    #if: needs.cypress-run.outputs.tests-status == 'success'
     steps:
+      - name: Debug Cypress Output
+        run: echo "Cypress Output: ${{ needs.cypress-run.outputs.tests-status }}"
       - name: Checkout
         uses: actions/checkout@v4
       - name: Install Dependencies
