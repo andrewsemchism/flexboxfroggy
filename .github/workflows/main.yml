@@ -1,5 +1,16 @@
 name: Cypress Tests
-on: push
+on:
+  push:
+    branches:
+      - gh-pages
+    paths-ignore:
+      - "**/README.md"
+  pull_request:
+    branches:
+      - gh-pages
+    paths-ignore:
+      - "**/README.md"
+
 jobs:
   cypress-run:
     runs-on: ubuntu-22.04
