@@ -14,8 +14,13 @@ on:
 jobs:
   cypress-run:
     runs-on: ubuntu-22.04
+    outputs:
+      tests-status: ${{ steps.check.outputs.tests-status }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Cypress run
         uses: cypress-io/github-action@v6
+      - name: Set tests status
+        id: check
+        run: echo "tests-status=success" >> $GITHUB_ENV
