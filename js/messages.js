@@ -260,7 +260,7 @@ var messages = {
     'bn': '/',
   },
   title: {
-    'en': 'Flexbox Froggy - A game for learning CSS flexbox',
+    'en': 'Flexbox Froggy - A fun game for learning CSS flexbox',
     'af': 'Flexbox Froggy - `n Spel vir die leer van CSS flexbox',
     'he': 'Flexbox Froggy - משחק ללמידת CSS flexbox',
     'ro': 'Flexbox Froggy - Un joc pentru a învăța CSS flexbox',
