@@ -1479,7 +1479,7 @@ var levels = [
       'bn': '<p>আপনি যে সিএসএস বৈশিষ্ট্যগুলি শিখেছেন তা ব্যবহার করে শেষবারের মতো ব্যাঙগুলিকে বাড়িতে নিয়ে আসুন:</p><ul><li><code>justify-content</code></li><li><code>align-items</code></li><li><code>flex-direction</code></li><li><code>order</code></li><li><code>align-self</code></li><li><code>flex-wrap</code></li><li><code>flex-flow</code></li><li><code>align-content</code></li></ul>',
     },
     board: 'rggggyy',
-    style: {'flex-direction': 'column-reverse', 'flex-wrap': 'wrap-reverse', 'align-content': 'space-between'},
+    style: {'flex-direction': 'column-reverse', 'flex-wrap': 'wrap-reverse', 'align-content': 'space-between', 'justify-content': 'center'},
     before: "#pond {\n  display: flex;\n",
     after: "}"
   }
