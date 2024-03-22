@@ -11,7 +11,7 @@ branch_prefixes=("${branch_prefix_types[*]/%//}")
 
 message="Branch names in this project must be prefixed with one of the following labels: ${branch_prefixes[*]}"
 
-if [[ ! $local_branch =~ $valid_branch_regex ]]
+if [[ ! $local_branch =~ $valid_branch_regex ]] && [[ "$local_branch" != "gh-pages" ]]
 then
     echo "$message"
     exit 1
