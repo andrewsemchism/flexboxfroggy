@@ -1,7 +1,7 @@
 feature:
   - head-branch: ["feature"]
 
-bug_fix:
+bugfix:
   - head-branch: ["bug-fix"]
 
 build:
