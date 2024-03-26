@@ -24,6 +24,7 @@ describe("Levels", () => {
     22: "align-content: flex-end;",
     23: "flex-direction: column-reverse;\nalign-content: center;",
     24: "flex-direction: column-reverse;\nflex-wrap: wrap-reverse;\nalign-content: space-between;\njustify-content: center;",
+    25: "flex-direction: column-reverse;\nflex-wrap: wrap-reverse;\nalign-content: space-between;\njustify-content: center;",
   };
   const numberOfLevels = Object.keys(levelAnswers).length
 

@@ -28,8 +28,5 @@ perf:
 test:
   - head-branch: ["test"]
 
-translation:
-  - head-branch: ["translation"]
-
 other:
   - head-branch: ["other"]
