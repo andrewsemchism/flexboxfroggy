@@ -1,6 +1,7 @@
 # Description of Changes
 
 # [Optional] Related Issue(s)
+<!-- Use the following format to link issues: closes #ISSUE-NUMBER -->
 
 # [Optional] Mobile/Desktop Screenshots
 
