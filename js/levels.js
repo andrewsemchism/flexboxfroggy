@@ -1366,6 +1366,16 @@ var levels = [
     after: "}"
   },
   {
+    name: 'CS489 special level',
+    instructions: {
+      'en': '<p>Help the CS489 student frogs (green) and professor frog (red) find their lillypads so they can start the lecture on containerization! Use a combination of <code>flex-wrap</code>, <code>flex-direction</code>, and <code>justify-content</code>.</p>',
+    },
+    board: 'gggggggggggggggr',
+    style: {'flex-direction': 'column', 'justify-content': 'center', 'flex-wrap': 'wrap'},
+    before: "#pond {\n  display: flex;\n",
+    after: "}"
+  },
+  {
     name: 'align-content 4',
     instructions: {
       'en': '<p>Bring the frogs home one last time by using the CSS properties you\'ve learned:</p><ul><li><code>justify-content</code></li><li><code>align-items</code></li><li><code>flex-direction</code></li><li><code>order</code></li><li><code>align-self</code></li><li><code>flex-wrap</code></li><li><code>flex-flow</code></li><li><code>align-content</code><img src="https://code.org/api/hour/finish_flexbox_froggy.png"></li></ul>',
