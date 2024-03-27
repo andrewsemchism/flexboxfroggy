@@ -9,11 +9,11 @@ valid_branch_regex="^($(IFS='|'; echo "${branch_prefix_types[*]}"))\/[a-z0-9._-]
 
 branch_prefixes=("${branch_prefix_types[*]/%//}")
 
-message="Branch names in this project must be prefixed with one of the following labels: ${branch_prefixes[*]}"
+error_message="Branch names in this project must be prefixed with one of the following labels: ${branch_prefixes[*]}"
 
-if [[ ! $local_branch =~ $valid_branch_regex ]] && [[ "$local_branch" != "gh-pages" ]]
+if [ ! $local_branch =~ $valid_branch_regex ]
 then
-    echo "$message"
+    echo "$error_message"
     exit 1
 fi
 
