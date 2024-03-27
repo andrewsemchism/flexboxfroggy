@@ -12,6 +12,11 @@ jobs:
         with:
           ref: gh-pages
           fetch-depth: 0
+
+      - name: Create and checkout new branch for updating changelog
+        run: |
+          git checkout -b chore/update-changelog
+
       - name: Update project version in package.json
         run: |
           TAG_NAME="${GITHUB_REF#refs/tags/}"
@@ -29,4 +34,4 @@ jobs:
           git add CHANGELOG.md package.json
           git commit -m "docs: Updated app version and CHANGELOG.MD"
       - name: Push new Changelog
-        run: git push origin gh-pages
+        run: git push origin chore/update-changelog
