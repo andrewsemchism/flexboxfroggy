@@ -1,4 +1,4 @@
-## [1.1.0](https://github.com/andrewsemchism/flexboxfroggy/compare/v1.0.0...v1.1.0) (2024-03-19)
+## [1.1.0](https://github.com/andrewsemchism/flexboxfroggy/compare/v1.0.0...v1.1.0) (2024-03-26)
 
 ## [1.0.0](https://github.com/andrewsemchism/flexboxfroggy/compare/0681da40f88733e03d1f9577c0c8976a57fa8907...v1.0.0) (2024-03-19)
 
