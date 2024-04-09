@@ -23,9 +23,10 @@ describe("Levels", () => {
     21: "align-content: flex-start;",
     22: "align-content: flex-end;",
     23: "flex-direction: column-reverse;\nalign-content: center;",
-    24: "flex-direction: column-reverse;\nflex-wrap: wrap-reverse;\nalign-content: space-between;\njustify-content: center;",
+    24: "flex-direction: column;\njustify-content: center;\nflex-wrap: wrap;",
+    25: "flex-direction: column-reverse;\nflex-wrap: wrap-reverse;\nalign-content: space-between;\njustify-content: center;",
   };
-  const numberOfLevels = Object.keys(levelAnswers).length
+  const numberOfLevels = Object.keys(levelAnswers).length;
 
   for (let level = 1; level <= numberOfLevels; level++) {
     it(`should allow us to pass level ${level} after we complete the level`, () => {
